@@ -16,17 +16,14 @@ h1 {
 
 h2 {
     font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: .5em;
 }
 
 h3 {
     font-size: 1em;
-}
-
-h2,
-h3 {
-    font-weight: bold;
-    margin-bottom: 0;
-    padding-bottom: 1em;
+    padding-bottom: .1em;
 }
 
 a {
@@ -59,8 +56,6 @@ li::marker {
     /* color: rgb(127, 165, 249); */
 }
 
-
-
 main {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -83,7 +78,20 @@ i {
 
 p {
     margin: .2em auto;
+}
+
+p,
+li {
     font-family: Calibri, Arial, sans-serif;
+}
+
+span {
+    /* font-weight: normal; */
+    color: black;
+}
+
+.date-text {
+    margin: 0em auto;
 }
 
 hr {
