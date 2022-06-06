@@ -18,12 +18,15 @@ h2 {
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 0;
+    /* margin-top: 0; */
     padding-bottom: .5em;
 }
 
 h3 {
     font-size: 1em;
     padding-bottom: .1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
 }
 
 a {
@@ -69,7 +72,8 @@ header {
 }
 
 section {
-    margin: auto 1em 4em 2em;
+    /* margin for each "section" */
+    margin: auto 1em 3em 2em;
 }
 
 i {
@@ -78,6 +82,8 @@ i {
 
 p {
     margin: .2em auto;
+    margin-bottom: 0em;
+    margin-top: 0em;
 }
 
 p,
@@ -90,8 +96,22 @@ span {
     color: black;
 }
 
+.header-section {
+    border-left: 2px solid lightgray;
+}
+
+.info-section {
+    margin-bottom: 1.5em;
+}
+
 .date-text {
     margin: 0em auto;
+}
+
+.date-text,
+p,
+h3 {
+    margin-left: 2em;
 }
 
 hr {
@@ -102,6 +122,11 @@ hr {
 
 @media (min-width: 1000px) {
     #mainLeft {
-        border-right: 2px solid lightgray;
+        /* border-right: 2px solid lightgray; */
     }
+}
+
+ul {
+    columns: 2;
+    margin-top: .5em;
 }
