@@ -130,3 +130,7 @@ ul {
     columns: 2;
     margin-top: .5em;
 }
+
+.info {
+    padding-left: 2em;
+}
