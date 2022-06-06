@@ -81,7 +81,7 @@ i {
 }
 
 p {
-    margin: .2em auto;
+    /* margin: .2em auto; */
     margin-bottom: 0em;
     margin-top: 0em;
 }
@@ -127,10 +127,10 @@ hr {
 }
 
 ul {
-    columns: 2;
-    margin-top: .5em;
+    margin-top: 0;
 }
 
-.info {
-    padding-left: 2em;
+.column-list {
+    columns: 2;
+    margin-top: .5em;
 }
